@@ -14,8 +14,7 @@ This project analyzes monthly labor market data for three major Finnish cities: 
 
 * **Tools:** Microsoft Excel (for data preprocessing), Microsoft Power BI (for data modeling, analysis, and visualization), DAX (for calculations).
 * **Workflow Summary:** Data Downloaded ([avoindata.fi](https://avoindata.fi/)) -> Preprocessed & Unpivoted (Excel) -> Imported into Power BI -> Data Modeled (9 tables: `Helsinki`, `Espoo`, `Vantaa`, `Date`, `Measures`, `City`, `Demographic`, `Gender`, `Age Group`) -> Validated, Analyzed & Visualized (Power BI with DAX).
-** Picture **
-Link picture
+![My Schema](schema.png)
 ## Validation, Analysis & Code
 
 Data validation and analysis were performed within Power BI using DAX measures and visual inspection. Key steps included:
