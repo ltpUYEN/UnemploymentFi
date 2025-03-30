@@ -6,7 +6,7 @@ This project analyzes monthly labor market data for three major Finnish cities: 
 
 ## Data Source
 
-* **Primary Source:** Public labor market datasets from [avoindata.fi](https://avoindata.fi/).
+* **Primary Source:** Public labor market datasets from https://avoindata.fi/.
 * **Data Processing:** Raw data was initially processed using Microsoft Excel. This involved cleaning, structuring, and unpivoting relevant columns (e.g., for gender and age groups) to create three distinct datasets for Helsinki, Espoo, and Vantaa.
 * **Data Format:** Processed data was imported into Power BI.
 
@@ -37,6 +37,11 @@ Data validation and analysis were performed within Power BI using DAX measures a
 * Trend analysis highlights historical patterns, including a noticeable spike in layoffs (`Lomautetut`) around 2020
 * Forecasts suggest future directions for layoffs and job vacancies, incorporating factors like seasonality where applicable
 * The relationship between job vacancies and the number of unemployed/job seekers shows dynamic changes over time, visualized through the scatter plot
+
+![Fi-Stats Page1](https://github.com/user-attachments/assets/08e15a12-6c42-465b-a406-77ae4ba69caf)
+![Fi-Stats Page2](https://github.com/user-attachments/assets/47866ef4-2fd9-4394-8c2a-e7eeeb884aa7)
+![Fi-Stats Page3](https://github.com/user-attachments/assets/b423625c-e803-49ec-bb1f-4c8fc868e052)
+
 
 ## Future Work / Limitations
 
