@@ -24,9 +24,9 @@ Data validation and analysis were performed within Power BI using DAX measures a
     * Addressing forecast anomalies (e.g., adjusting the y-axis start for `Lomautetut`, applying seasonality settings for `Avoimet työpaikat`).
     * Ensuring logical calculations for ratios and percentages.
 * **Analysis:** The Power BI report is structured into three main pages:
-    * **Overview:** Provides a high-level summary of key indicators like average unemployed, average labor force, job vacancies, and overall unemployment rate changes[cite: 1].
-    * **Demographic:** Explores the composition of the unemployed population by gender, age group, long-term status, and foreign citizenship[cite: 3].
-    * **Trends & Forecast:** Visualizes historical trends (2015-2024) for unemployment, job seekers, vacancies, and layoffs. Includes forecasts for layoffs and vacancies, and explores the relationship between vacancies and unemployment using a scatter plot with a time-based play axis[cite: 4].
+    * **Overview:** Provides a high-level summary of key indicators like average unemployed, average labor force, job vacancies, and overall unemployment rate changes.
+    * **Demographic:** Explores the composition of the unemployed population by gender, age group, long-term status, and foreign citizenship.
+    * **Trends & Forecast:** Visualizes historical trends (2015-2024) for unemployment, job seekers, vacancies, and layoffs. Includes forecasts for layoffs and vacancies, and explores the relationship between vacancies and unemployment using a scatter plot with a time-based play axis.
 * **Code:** DAX was used extensively within Power BI to create calculated measures for all necessary aggregations, time intelligence calculations (e.g., forecasts, averages), and specific analysis metrics.
 
 ## Key Findings
@@ -45,6 +45,6 @@ Data validation and analysis were performed within Power BI using DAX measures a
 
 ## Future Work / Limitations
 
-* Forecasts are based on historical trends and Power BI's built-in algorithms (or simple DAX methods); they cannot predict unforeseen economic events and have inherent uncertainty.
+* Forecasts are based on historical trends and Power BI's built-in algorithms; they cannot predict unforeseen economic events and have inherent uncertainty.
 * Further analysis could explore correlations with other economic indicators or break down data by industry sector if available.
 * Error handling and data validation could be further enhanced.
